@@ -20,27 +20,27 @@
   <body>
 
     <header>
-      <div class="collapse bg-dark" id="navbarHeader">
+      <div class="collapse" id="navbarHeader">
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">关于</h4>
+              <h4 class="text-black">关于</h4>
               <p class="text-muted">本站与irreader开发者无关，只是出于个人兴趣写的一个简单的主题站，能将主题赋予irreader。</p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">联系我</h4>
+              <h4 class="text-black">联系我</h4>
               <ul class="list-unstyled">
-                <li><a href="mailto:chuck.chen.bo@gmail.com" class="text-white">Email me</a></li>
+                <li><a href="mailto:chuck.chen.bo@gmail.com" class="text-black">Email me</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
+      <div class="navbar navbar-light  box-shadow">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" 查看大图Box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-            <strong>Album</strong>
+            
+            <strong>irreader主题站</strong>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,26 +54,133 @@
       <section class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading">Irreader主题</h1>
-          <p class="lead text-muted">这次，来点不一样的！</p>
-          <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p>
+          <p class="lead ">这次，来点不一样的！</p>
         </div>
       </section>
 
       <div class="album py-5 bg-light">
+       <div class="col-md-12">
+       	<div class="offset-md-1 col-md-4"><h2>外框主题</h2></div>
+       </div>
+
+        <div class="container" >
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="http://irreader.netqon.com/app-themes/light.png?_t=1540735928159" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">【官方】默认主题	 </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
+                    </div>
+                    <small class="text-muted">官方原版</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="http://irreader.netqon.com/app-themes/dark.png?_t=1540735928159" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">【官方】暗黑(beta) v2 </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
+                    </div>
+                    <small class="text-muted">官方原版</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="http://irreader.netqon.com/app-themes/pink.png?_t=1540735928160" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">【官方】PINKMAN </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
+                    </div>
+                    <small class="text-muted">官方原版</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="http://irreader.netqon.com/app-themes/font-fix.png?_t=1540735928160" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">【官方】Windows下临时字体修复-雅黑</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
+                    </div>
+                    <small class="text-muted">官方原版</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="img/coming.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">即将出现... </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
+                    </div>
+                    <small class="text-muted">明天</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="img/coming.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">即将出现...</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
+                    </div>
+                    <small class="text-muted">明天</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+ 
+
+          </div>
+        </div>
+      </div>
+       
+       <div class="album py-5 bg-light" id="page-theme">
+       <div class="col-md-12">
+       	<div class="offset-md-1 col-md-4"><h2>页面主题</h2></div>
+       </div>
+
         <div class="container">
 
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="http://irreader.netqon.com/app-themes/light.png?_t=1540735928159" alt="Card image cap">
+                <img class="card-img-top" src="http://irreader.netqon.com/web-themes/light.png?_t=1540735928157" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">【官方】默认主题	 </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
                     </div>
                     <small class="text-muted">官方原版</small>
@@ -83,12 +190,12 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="http://irreader.netqon.com/app-themes/dark.png?_t=1540735928159" alt="Card image cap">
+                <img class="card-img-top" src="http://irreader.netqon.com/web-themes/dark.png?_t=1540735928159" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">【官方】暗黑(beta) v2 </p>
+                  <p class="card-text">【官方】暗黑 v3 </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
                     </div>
                     <small class="text-muted">官方原版</small>
@@ -98,12 +205,12 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="http://irreader.netqon.com/app-themes/pink.png?_t=1540735928160" alt="Card image cap">
+                <img class="card-img-top" src="http://irreader.netqon.com/web-themes/darker.png?_t=1540735928159" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">【官方】PINKMAN </p>
+                  <p class="card-text">【官方】暗黑++ v2 </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
                     </div>
                     <small class="text-muted">官方原版</small>
@@ -114,12 +221,12 @@
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="http://irreader.netqon.com/app-themes/font-fix.png?_t=1540735928160" alt="Card image cap">
+                <img class="card-img-top" src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180829170745.png?_t=1540735928159" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">【官方】Windows下临时字体修复-雅黑</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
                     </div>
                     <small class="text-muted">官方原版</small>
@@ -129,30 +236,30 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="img/coming.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">Theme# </p>
+                  <p class="card-text">即将出现... </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">明天</small>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="img/coming.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">Theme# </p>
+                  <p class="card-text">即将出现...</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">查看大图</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showImage(getImageUrl(this))">查看大图</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">应用主题</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">明天</small>
                   </div>
                 </div>
               </div>
@@ -167,18 +274,44 @@
 
     </main>
 
+	<div class="modal fade" id="LargeImageModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="LargeImageModel-title">查看大图</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img src="" alt="" id="large-img">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">
           <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+        </p>·
       </div>
     </footer>
 
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script>
+
+   	 var getImageUrl = function (e) {
+   	 	
+   	 	return $(e).parent().parent().parent().parent().children('img').attr("src");
+
+   	 }
+   	 var showImage = function (url) {
+   	 	$("#large-img").attr("src",url);
+   	 	$("#LargeImageModel").modal("toggle");
+   	 }
+   </script>
   </body>
 </html>
