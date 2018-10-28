@@ -22,7 +22,7 @@
     left: 0;
     background: url(../img/banner.jpg);
     background-size: 100% auto;
-    background-position-y: -300px;
+    background-position-y: 0px;
     opacity: 0.7;
     z-index: 1;
 }
@@ -95,4 +95,12 @@ a.btn{
 
 a.btn:hover{
   color:#fff !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+* {
+    font-family: "Conlosas","Microsoft YaHei","黑体","宋体",sans-serif;
 }
