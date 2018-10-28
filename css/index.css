@@ -101,6 +101,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 * {
     font-family: "Conlosas","Microsoft YaHei","黑体","宋体",sans-serif;
 }
