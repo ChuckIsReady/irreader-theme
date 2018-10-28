@@ -88,3 +88,11 @@ footer p {
 }
 #large-img
 {    width: 100%;}
+
+a.btn{
+  color:#6c757d !important;
+}
+
+a.btn:hover{
+  color:#fff !important;
+}
